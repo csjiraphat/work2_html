@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mali:wght@200&display=swap');
+
+        .title-name,
+        .title-name-color,
+        .nav-menu {
+            font-size: 24px;
+            font-family: 'Mali', cursive;
+            padding: 20px;
+        }
+
+        .tree,
+        .title-name,
+        .title-name-color {
+            color: orangered;
+        }
+
+        .tree-name {
+            color: black;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 20px;
+            border: 2px solid orangered;
+            border-radius: 9px;
+            color: orangered;
+            margin: auto;
+            background-color: white;
+        }
+
+        nav a:visited {
+            color: gray;
+        }
+
+        .nav-menu {
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .nav-menu,
+        ul,
+        li {
+            display: inline;
+            list-style: none;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .title-name {
+            border: 2px solid orangered;
+            border-radius: 14px;
+            padding: 25px;
+            margin: 0;
+            width: fit-content;
+        }
+
+        .title-head {
+            padding: 20px;
+            margin: 0;
+        }
+
+        .sub-head {
+            display: inline-flex;
+            padding: 20px;
+            position: absolute;
+            border: 2px solid orangered;
+            background-color: white;
+            text-align: center;
+        }
+
+        .color,
+        .img-logo,
+        .title-name-color,
+        .img-crru,
+        .tree,
+        .tree-name {
+            text-align: center;
+            margin: 0;
+            padding: 10px;
+        }
+        iframe{
+            width: 1020px;
+            height: 790px;
+        }
+    </style>
+</head>
+
+<body background="./img/bg.jpg">
+    <div class="nav-menu">
+        <nav>
+            <ul>
+                <li><a href="History.html" target="content"><strong>ประวัติมหาวิทยาลัยราชภัฏเชียงราย</strong> </a></li>
+                <li><a href="Location.html" target="content"><strong>สถานที่ท่องเที่ยว</strong> </a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="title-head">
+        <div class="sub-head">
+            <div class="title-name"><Strong>มหาวิทยาลัยราชภัฏเชียงราย</Strong>
+                <div class="img-logo">
+                    <img src="./img/0.jpg" alt="logo" width="130">
+                </div>
+                <div class="title-name-color"><strong>สีประจำมหาวิทยาลัย</strong></div>
+                <div class="color"><img src="./img/color.gif" width="100" alt="สีประจำมหาวิทยาลัย"></div>
+
+                <div class="img-crru"><img src="./img/19.jpg" width="240" alt="">
+                    <div class="tree"><strong>ต้นไม้ประจำมหาวิทยาลัย</strong></div>
+                    <div class="tree-name">
+                        <strong>ต้นกาสะลองคำ</strong>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <iframe src="History.html" name="content" frameborder="0"
+                    style="border: 2px s;"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
